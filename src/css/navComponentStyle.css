@@ -1,0 +1,61 @@
+#navComponentStyle{
+    background: aliceblue;
+}
+#titleSearchCharacter{
+    margin-top: 104px;
+    margin-left: 113px;
+    width: 648px;
+    height: 36px;
+    text-align: left;
+    font: normal normal bold 32px/30px PT Sans Caption;
+    letter-spacing: 0px;
+    color: #555555;
+    opacity: 1;
+}
+#labelSearchCharacter{
+    margin-top: 156px;
+    margin-left: 113px;
+    width: 246px;
+    height: 19px;
+    text-align: left;
+    font: normal normal bold 16px/24px PT Sans Caption;
+    letter-spacing: 0px;
+    color: #555555;
+    opacity: 1;
+}
+#inputSearchCharacterByName{
+    margin-top:  8px;
+    margin-left: 113px;
+    width: 295px;
+    height: 32px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #E5E5E5;
+    border-radius: 4px;
+    opacity: 1;
+}
+#inputSearchCharacterByName::placeholder{
+    padding-top: 8px;
+    padding-left: 16px;
+    padding-bottom: 7px;
+    width: 42px;
+    height: 17px;
+    text-align: left;
+    font: italic normal normal 14px/19px PT Sans;
+    letter-spacing: 0px;
+    color: #8E8E8E;
+    opacity: 1;
+}
+#imgPlaceholderInput{
+    margin-top: 187px;
+    margin-left: 368px;
+    width: 24px;
+    height: 24px;
+    opacity: 1;
+}
+#inputSearchCharacterImage{
+    padding-top: 8px;
+    width: 24px;
+    height: 24px;
+    opacity: 1;
+}
+

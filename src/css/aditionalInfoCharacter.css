@@ -1,0 +1,65 @@
+
+.card {
+  width: 500px;
+  height: auto;
+  display: inline-block;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  box-shadow: 5px 0 4px 2px white;
+
+}
+.cardDetailsContainer {
+    background-color: red;
+    text-align: justify;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+  }
+  .cardCharacterDetails {
+    background-size: cover;
+    padding-bottom:50px ;
+    box-shadow: 0 0 140px 10px red;
+    
+    background-color: red;
+    position: relative;
+    text-align: center;
+    height: auto;
+    width: 1300px;
+ }
+  .titleDetails{
+    font-size: 60px;
+    margin-right: 24px;
+    position: relative;  
+    color: white;   
+}
+  
+  .titleNameCharacterDetails{
+    padding-top: 130px;
+    padding-left: 45px;
+    padding-right: 25px;
+    text-align: right;
+    font-family: 'Architects Daughter', cursive;
+    cursor: pointer;
+  }
+.titleDetails .closeDetailsCharacter{
+  text-align: left;
+  width: auto;
+  cursor: pointer;
+  padding-bottom: 10px;
+  font-family: 'Architects Daughter', cursive;
+}
+.bodyComicsCard{
+  margin: 100px;
+}
+.menuDetailsInfo{
+  list-style: none;
+  display: inline-block;
+}
+.menuDetailsInfo li{
+  display: inline;
+  padding:16px;
+  box-shadow: 5px 5px 6px 0px white;
+  
+}

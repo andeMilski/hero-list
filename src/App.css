@@ -1,0 +1,31 @@
+.App{
+  margin: 0px;
+  width: auto;
+  height: auto;
+  background: #E5E5E5 0% 0% no-repeat;
+  border-style: solid;
+  border-color: #E5E5E5;
+  border-width: 2px;
+  opacity: 1;
+}
+@media(max-width:900px){
+    .charactersList .eventsCharacterContainer{
+      display: none;
+    }
+    .charactersList .seriesCharacterContainer{
+      display: none;
+    }
+
+    #characterLabelSeries, #characterLabelEvents{
+      display: none;
+    }
+    .characterImageContainer{
+      margin-top: 20px;
+    }
+    .articleComponentStyle .charactersList{
+      width: 600px;
+    }
+    .cardDetailsContainer{
+      display: none;
+    }
+}

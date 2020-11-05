@@ -1,0 +1,92 @@
+.articleComponentStyle{
+    margin-top: 64px;
+    margin-left: 0px;
+    width: auto;
+    height: auto;
+    overflow: auto;
+    background: #E5E5E5 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.rowCardCharacter{
+
+    margin-top: 278px;
+    margin-left: 113px;
+    width: 1140px;
+    height: 88px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 5px #00000033;
+    border-radius: 4px;
+    opacity: 1;
+}
+.rowCardCharacter .td{
+    border-color: white;
+}
+.articleComponentStyle table{
+    border-collapse:collapse;
+}
+
+.charactersList{ 
+    margin-top: 8px;
+    margin-left: 113px;
+    margin-right: 113px;
+    width: 1140px;
+    height: 88px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 5px #00000033;
+    border-radius: 4px;
+    opacity: 1;
+}
+
+#characterLabel{
+    margin-left: 137px;
+    width: 63px;
+    height: 14px;
+    text-align: left;
+    font: normal normal normal 12px/16px PT Sans;
+    letter-spacing: 0px;
+    color: #8E8E8E;
+    opacity: 1;
+}
+
+#characterLabelSeries{
+    margin-top: 255px;
+    margin-left: 320px;
+    width: 31px;
+    height: 14px;
+    text-align: left;
+    font: normal normal normal 12px/16px PT Sans;
+    letter-spacing: 0px;
+    color: #8E8E8E;
+    opacity: 1;
+}
+#characterLabelEvents{
+
+    margin-top: 255px;
+    margin-left: 325px;
+    width: 40px;
+    height: 14px;
+    text-align: left;
+    font: normal normal normal 12px/16px PT Sans;
+    letter-spacing: 0px;
+    color: #8E8E8E;
+    opacity: 1;
+}
+.detailsCharacters{ 
+    margin-top: 8px;
+    margin-left: 113px;
+    margin-right: 113px;
+    width: 1140px;
+    height: 88px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 5px #00000033;
+    border-radius: 4px;
+    opacity: 1;
+}
+.active{
+    background: #167ABC 0% 0% no-repeat padding-box;
+}
+@media only screen and (max-width: 900px) {
+    .characterItemContainer {
+        display: none;
+      }
+  }

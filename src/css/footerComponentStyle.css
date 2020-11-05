@@ -1,0 +1,46 @@
+.footerComponentStyle{
+    margin-top: 0px;
+    margin-left: 0px;
+    height: 90px;
+    overflow: hidden;
+    background: #FFFFFF 0% 0% no-repeat padding-box !important;
+    opacity: 1;
+}
+.footerPageButtons{
+    text-align: justify;
+    width: 100%;
+}
+.footerPageButtons ul{
+    list-style: none;
+    text-align: center;
+}
+.footerPageButtons ul li{   
+    float: left; 
+    margin: 10px;
+}
+
+.footerPageButtons ul{
+    justify-content: center;
+    display: flex;
+}
+
+.footerPageButtons ul li button{
+
+    margin-top: 5px;
+    margin-left: 0px;
+    margin-bottom: 32px;
+    width: 40px;
+    height: 32px;
+    background: #F5F5F5 0% 0% no-repeat padding-box;
+    border: 1px solid #E5E5E5;
+    opacity: 1;
+    cursor: pointer;
+}
+.active{
+
+    background: #167ABC  !important;
+    color: white;
+}
+.footerPageButtons button{
+    border-radius: 5px;
+}
